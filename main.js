@@ -11,7 +11,10 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
-    let newText = "Button 1 was clicked";
+    let newText = "Button1 was clicked!";
     let buttonDiv = document.getElementById("button-div");
+    let printRand = document.getElementById("random_num")
+    let myRand = Math.random() * 100;
     buttonDiv.innerHTML = newText;
+    printRand.innerHTML = myRand;
 }
