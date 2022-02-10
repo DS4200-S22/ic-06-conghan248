@@ -11,4 +11,14 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
+    let newText = "Button 1 was clicked";
+    let buttonDiv = document.getElementById("button-div");
+    button.InnHTML = newText;
 }
+
+function printRand(){
+    let myRand = math.random();
+    console.log(myRand);
+}
+
+printRand();
