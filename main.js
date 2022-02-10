@@ -13,12 +13,5 @@ function button1Clicked() {
     console.log("Button 1 was clicked"); 
     let newText = "Button 1 was clicked";
     let buttonDiv = document.getElementById("button-div");
-    button.InnHTML = newText;
+    buttonDiv.innerHTML = newText;
 }
-
-function printRand(){
-    let myRand = math.random();
-    console.log(myRand);
-}
-
-printRand();
